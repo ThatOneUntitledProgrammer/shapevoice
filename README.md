@@ -19,7 +19,8 @@ It is an experimental audio project that turns letters into structured sound pat
 ## Project Structure
 
 
-ShapeVoice/
+
+![ShapeVoice/
 │
 ├── data/
 │ └── project.json
@@ -40,7 +41,7 @@ ShapeVoice/
 │ └── shapes/
 │ ├── square.py
 │ ├── triangle.py
-│ └── noise.py
+│ └── noise.py](https://i.ibb.co/YF4nyzDL/Screenshot-2026-05-30-223310.png)
 
 
 ---

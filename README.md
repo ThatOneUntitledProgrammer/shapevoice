@@ -19,29 +19,7 @@ It is an experimental audio project that turns letters into structured sound pat
 ## Project Structure
 
 
-
-![ShapeVoice/
-│
-├── data/
-│ └── project.json
-│
-├── input/
-│ └── example.txt
-│
-├── output/
-│ └── result.wav
-│
-├── src/
-│ ├── textreader.py
-│ ├── tone.py
-│ │
-│ ├── list/
-│ │ └── hz_by_letter.json
-│ │
-│ └── shapes/
-│ ├── square.py
-│ ├── triangle.py
-│ └── noise.py](https://i.ibb.co/YF4nyzDL/Screenshot-2026-05-30-223310.png)
+![Screenshot In VSCODE](https://i.ibb.co/YF4nyzDL/Screenshot-2026-05-30-223310.png)
 
 
 ---
@@ -111,8 +89,9 @@ As long as Python and dependencies are installed, ShapeVoice will run on all pla
 ## Note
 
 1. ShapeVoice is not a real human speech engine.  
-It is a **procedural sound synthesis system** designed for experimentation and creative audio generation.
-2. Any file you make. it overwrites the old result.wav so before running if you want. please change :
+It is a **procedural waveform synthesis (experimental)** designed for experimentation and audio generation,
+ShapeVoice does not generate real human speech. 
+2. Any files you make. it overwrites the old result.wav so before running if you want. please change :
 ```py
 export_audio(wave, "output/result.wav")
 ```

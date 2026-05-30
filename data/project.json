@@ -1,0 +1,7 @@
+{
+    "name": "shapevoice",
+    "version": "0.1.0-beta",
+    "description": "A tool for converting text to sound using soundwave.",
+    "author": "ThatOneUntitledProgrammer",
+    "license": "MIT"
+}

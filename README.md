@@ -12,7 +12,7 @@ It generates WAV files from text using frequency mapping and procedural sound wa
 -  Waveform-based audio generation
 -  File-based input system
 -  WAV audio export
--  Human-like speech rhythm (experimental)
+-  Human-like speech rhythm (experimental and not might not be accurate)
 
 ---
 

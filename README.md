@@ -1,8 +1,8 @@
-# 🎧 ShapeVoice
+# ShapeVoice
 
-ShapeVoice is a **text-to-sound synthesis engine** that converts text into audio using frequency mapping and waveform-based sound generation (triangle, square, and noise-based systems).
+ShapeVoice converts text into synthetic audio using waveform-based synthesis.
 
-It is an experimental audio project that turns letters into structured sound patterns.
+It generates WAV files from text using frequency mapping and procedural sound waves.
 
 ---
 

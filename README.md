@@ -4,6 +4,9 @@ ShapeVoice is an experimental text-to-sound engine. It is not a voice AI or text
 
 It generates WAV files from text using frequency mapping and procedural sound waves.
 
+## Quick Note:
+
+### *ShapeVoice does not generate real speech. It converts text into waveform-based sound patterns.*
 ---
 
 ## Features

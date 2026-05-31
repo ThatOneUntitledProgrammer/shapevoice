@@ -16,6 +16,14 @@ It generates WAV files from text using frequency mapping and procedural sound wa
 
 ---
 
+## Run ShapeVoice
+```bash
+git clone https://github.com/ThatOneUntitledProgrammer/shapevoice
+cd shapevoice
+pip install -r requirements.txt
+python main.py
+```
+
 ## Project Structure
 
 

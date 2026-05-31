@@ -7,6 +7,7 @@ It generates WAV files from text using frequency mapping and procedural sound wa
 ## Quick Note:
 
 ### *ShapeVoice does not generate real speech. It converts text into waveform-based sound patterns.*
+### *And The Output is synthetic audio generated using triangle waveform.* It is ***not*** **voice AI.**
 ---
 
 ## Features

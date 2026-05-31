@@ -1,13 +1,9 @@
 # ShapeVoice
 
-ShapeVoice is an experimental text-to-sound engine. It is not a voice AI or text-to-speech system.
+ShapeVoice is not a voice AI or speech synthesis system.  
 
-It generates WAV files from text using frequency mapping and procedural sound waves.
+It generates synthetic audio using waveform-based methods.
 
-## Quick Note:
-
-### *ShapeVoice does not generate real speech. It converts text into waveform-based sound patterns.*
-### *And The Output is synthetic audio generated using triangle waveform.* It is ***not*** **voice AI.**
 ---
 
 ## Features
@@ -16,7 +12,7 @@ It generates WAV files from text using frequency mapping and procedural sound wa
 -  Waveform-based audio generation
 -  File-based input system
 -  WAV audio export
--  Human-like speech rhythm (experimental and not might not be accurate)
+-  Experimental speech-like rhythm (not actual speech synthesis)
 
 ---
 
@@ -42,31 +38,17 @@ python main.py
 - numpy
 - scipy
 
-Install dependencies:
+You can install dependencies using either method:
 
 ```bash
 pip install numpy scipy
 ```
-
----
-
-##  How to Run
-
-1. Add your text inside:
-```
-input/example.txt
-```
-
-2. Run the program:
-
+or:
 ```bash
-python main.py
+pip install -r requirements.txt
 ```
 
-3. Output audio will be saved as:
-```
-output/result.wav
-```
+It doesn’t matter which way, both install the same dependencies.
 
 ---
 
@@ -100,14 +82,9 @@ As long as Python and dependencies are installed, ShapeVoice will run on all pla
 
 ## Note
 
-1. ShapeVoice is not a real human speech engine.  
-It is a **procedural waveform synthesis (experimental)** designed for experimentation and audio generation,
-ShapeVoice does not generate real human speech. 
-2. Any files you make. it overwrites the old result.wav so before running if you want. please change :
-```py
-export_audio(wave, "output/result.wav")
-```
-to:
+Each run overwrites `output/result.wav` by default.  
+To prevent overwriting, change the output filename:
+
 ```py
 export_audio(wave, "output/yourfilename.wav")
 ```

@@ -6,6 +6,19 @@ It generates synthetic audio using waveform-based methods.
 
 ---
 
+## Quick Demo
+
+Input:
+HELLO
+
+Output:
+Synthetic waveform audio generated using ShapeVoice (`triangle` synthesis)
+
+### Listen to Example Output
+GitHub does not support audio playback in README files, so a sample is provided below:
+
+👉 [Download / Listen Sample Audio](https://cdn.jumpshare.com/download/a1x_-Tg86DiwFL9Dmp4Ra4dZp5vwH-EvTKTIKywJ0x8z3xdqMmTukbeyNSQ_wc0Uo886znFKkAGVYY97l1Scrab5RW6_a-qVqU5Z46JHJVg)
+
 ## Features
 
 -  Text → frequency mapping system
